@@ -1,0 +1,23 @@
+*.iml
+.gradle
+/local.properties
+local.properties
+/.idea/
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Temporary search & scraper scratch files
+/*.m3u
+/*.m3u8
+/*.ps1
+/*.xml
+/working_*.json
+/verified_*.json
+/mgi_*.json
+/freetv_*.json
+/dens_links.txt
+/indo_channels_summary.txt

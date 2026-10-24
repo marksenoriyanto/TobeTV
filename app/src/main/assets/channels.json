@@ -1,0 +1,1163 @@
+[
+    {
+        "id":  "metro-tv",
+        "name":  "Metro TV",
+        "number":  "01",
+        "sources":  [
+                        {
+                            "url":  "https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8",
+                            "name":  "Official Live Edge (HD)",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8",
+                            "name":  "DensTV Backup",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://thumbor.prod.vidiocdn.com/u0aa_S_rQeujrp5eR6LwXdertrI=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/777/ea8483.png",
+        "category":  "Nasional",
+        "logo_url":  "https://thumbor.prod.vidiocdn.com/u0aa_S_rQeujrp5eR6LwXdertrI=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/777/ea8483.png",
+        "is_indonesia":  true,
+        "sort_order":  1,
+        "is_active":  true
+    },
+    {
+        "id":  "sctv",
+        "name":  "SCTV",
+        "number":  "02",
+        "sources":  [
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h217/01.m3u8?app_type=web\u0026userid=lite\u0026chname=SCTV",
+                            "name":  "Server Utama (DensTV HD)",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h217/01.m3u8",
+                            "name":  "Server Backup (Flashcon)",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png",
+        "category":  "Nasional",
+        "logo_url":  "https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png",
+        "is_indonesia":  true,
+        "sort_order":  2,
+        "is_active":  true
+    },
+    {
+        "id":  "indosiar",
+        "name":  "Indosiar",
+        "number":  "03",
+        "sources":  [
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h207/01.m3u8",
+                            "name":  "Server Utama (DensTV HD)",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8",
+                            "name":  "Server Backup (Index)",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png",
+        "category":  "Nasional",
+        "logo_url":  "https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png",
+        "is_indonesia":  true,
+        "sort_order":  3,
+        "is_active":  true
+    },
+    {
+        "id":  "antv",
+        "name":  "ANTV",
+        "number":  "04",
+        "sources":  [
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h235/01.m3u8",
+                            "name":  "Server Utama (DensTV HD)",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h235/index.m3u8",
+                            "name":  "Server Backup",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://thumbor.prod.vidiocdn.com/IRVkD3QGRzroJ4IZzXBpS-0MRls=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/782/e1af8b.png",
+        "category":  "Nasional",
+        "logo_url":  "https://thumbor.prod.vidiocdn.com/IRVkD3QGRzroJ4IZzXBpS-0MRls=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/782/e1af8b.png",
+        "is_indonesia":  true,
+        "sort_order":  4,
+        "is_active":  true
+    },
+    {
+        "id":  "tvri-nasional",
+        "name":  "TVRI Nasional",
+        "number":  "05",
+        "sources":  [
+                        {
+                            "url":  "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8",
+                            "name":  "OTT Balancer FHD",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h17/index.m3u8?app_type=web\u0026userid=lite\u0026chname=TVRI",
+                            "name":  "DensTV Backup",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/TVRI_Nasional_2019.svg/512px-TVRI_Nasional_2019.svg.png",
+        "category":  "Nasional",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/TVRI_Nasional_2019.svg/512px-TVRI_Nasional_2019.svg.png",
+        "is_indonesia":  true,
+        "sort_order":  5,
+        "is_active":  true
+    },
+    {
+        "id":  "kompas-tv",
+        "name":  "Kompas TV",
+        "number":  "06",
+        "sources":  [
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8",
+                            "name":  "DensTV HD",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://masterplayer.pro:443/live/Kang_pagal12/12Kang_pagal/10.m3u8",
+                            "name":  "Server Backup",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://thumbor.prod.vidiocdn.com/9748r4f8rY_vE-JzVzJp_3-4VvQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/874/8d5231.png",
+        "category":  "Nasional",
+        "logo_url":  "https://thumbor.prod.vidiocdn.com/9748r4f8rY_vE-JzVzJp_3-4VvQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/874/8d5231.png",
+        "is_indonesia":  true,
+        "sort_order":  6,
+        "is_active":  true
+    },
+    {
+        "id":  "tv-one",
+        "name":  "TV One",
+        "number":  "07",
+        "sources":  [
+                        {
+                            "url":  "https://op-group1-densxvisionhd-1.dens.tv/h/h40/01.m3u8",
+                            "name":  "DensTV HD",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h40/01.m3u8",
+                            "name":  "DensTV Alt",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://thumbor.prod.vidiocdn.com/Vp9r20p9r9_82-94/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/783/30d1d6.png",
+        "category":  "Nasional",
+        "logo_url":  "https://thumbor.prod.vidiocdn.com/Vp9r20p9r9_82-94/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/783/30d1d6.png",
+        "is_indonesia":  true,
+        "sort_order":  7,
+        "is_active":  true
+    },
+    {
+        "id":  "moji-tv",
+        "name":  "MOJI TV",
+        "number":  "08",
+        "sources":  [
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h210/01.m3u8",
+                            "name":  "DensTV HD",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8",
+                            "name":  "DensTV Alt",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://thumbor.prod.vidiocdn.com/g7gTjD2Il1GI4DJULOZ1cv6NSj4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/206/1823dc.png",
+        "category":  "Nasional",
+        "logo_url":  "https://thumbor.prod.vidiocdn.com/g7gTjD2Il1GI4DJULOZ1cv6NSj4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/206/1823dc.png",
+        "is_indonesia":  true,
+        "sort_order":  8,
+        "is_active":  true
+    },
+    {
+        "id":  "rtv",
+        "name":  "RTV (Rajawali TV)",
+        "number":  "09",
+        "sources":  [
+                        {
+                            "url":  "https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8",
+                            "name":  "Official Live Stream",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://flv.intechmedia.net/live/ch107.m3u8",
+                            "name":  "Intech Media Backup",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/RTV_2014_logo.svg/512px-RTV_2014_logo.svg.png",
+        "category":  "Nasional",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/RTV_2014_logo.svg/512px-RTV_2014_logo.svg.png",
+        "is_indonesia":  true,
+        "sort_order":  9,
+        "is_active":  true
+    },
+    {
+        "id":  "mdtv",
+        "name":  "MDTV (NET)",
+        "number":  "10",
+        "sources":  [
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h223/02.m3u8",
+                            "name":  "DensTV HD",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h223/01.m3u8",
+                            "name":  "DensTV Alt",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://thumbor.prod.vidiocdn.com/LCZH_yEBnTYEQzrU1pB7w7ev-Bw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/875/325605.png",
+        "category":  "Nasional",
+        "logo_url":  "https://thumbor.prod.vidiocdn.com/LCZH_yEBnTYEQzrU1pB7w7ev-Bw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/875/325605.png",
+        "is_indonesia":  true,
+        "sort_order":  10,
+        "is_active":  true
+    },
+    {
+        "id":  "nusantara-tv",
+        "name":  "Nusantara TV",
+        "number":  "11",
+        "sources":  [
+                        {
+                            "url":  "https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8",
+                            "name":  "Siar CDN FHD",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://nusantaratv.siar.us/nusantaratv/live/chunklist.m3u8",
+                            "name":  "Siar Backup",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Nusantara_TV_logo.svg/512px-Nusantara_TV_logo.svg.png",
+        "category":  "Nasional",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Nusantara_TV_logo.svg/512px-Nusantara_TV_logo.svg.png",
+        "is_indonesia":  true,
+        "sort_order":  11,
+        "is_active":  true
+    },
+    {
+        "id":  "garuda-tv",
+        "name":  "Garuda TV",
+        "number":  "12",
+        "sources":  [
+                        {
+                            "url":  "https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8",
+                            "name":  "HGM Live HD",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h10/01.m3u8",
+                            "name":  "DensTV Feed",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Garuda_TV.png/512px-Garuda_TV.png",
+        "category":  "Nasional",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Garuda_TV.png/512px-Garuda_TV.png",
+        "is_indonesia":  true,
+        "sort_order":  12,
+        "is_active":  true
+    },
+    {
+        "id":  "inews",
+        "name":  "iNews",
+        "number":  "13",
+        "sources":  [
+                        {
+                            "url":  "https://live.i-news.tv/hls/stream.m3u8",
+                            "name":  "Direct Stream",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://live.i-news.tv/hls/stream.m3u8",
+                            "name":  "Backup Stream",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://thumbor.prod.vidiocdn.com/wSfbef0k6V3fn7rnZa4azgVrLcM=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/728/eb7747.png",
+        "category":  "Nasional",
+        "logo_url":  "https://thumbor.prod.vidiocdn.com/wSfbef0k6V3fn7rnZa4azgVrLcM=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/728/eb7747.png",
+        "is_indonesia":  true,
+        "sort_order":  13,
+        "is_active":  true
+    },
+    {
+        "id":  "cnn-indonesia",
+        "name":  "CNN Indonesia",
+        "number":  "14",
+        "sources":  [
+                        {
+                            "url":  "https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w909769083_b384000_sleng.m3u8",
+                            "name":  "Live CNN Stream",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://video.detik.com/livecnn/smil:cnntv/chunklist_w268557525_b384000_sleng.m3u8",
+                            "name":  "Detik Backup",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN_Indonesia_logo.svg/512px-CNN_Indonesia_logo.svg.png",
+        "category":  "Berita",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN_Indonesia_logo.svg/512px-CNN_Indonesia_logo.svg.png",
+        "is_indonesia":  true,
+        "sort_order":  14,
+        "is_active":  true
+    },
+    {
+        "id":  "btv",
+        "name":  "BTV (BeritaSatu)",
+        "number":  "15",
+        "sources":  [
+                        {
+                            "url":  "https://lnd0t3b922.tenbytecdn.com/ta-sg1/90369cf5-6ac2-411d-b3d0-15fae10a2e2c/master.m3u8",
+                            "name":  "Tenbyte SG CDN",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h314/stream.m3u8?app_type=web\u0026userid=lite\u0026chname=Berita_Satu",
+                            "name":  "DensTV Backup",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/BTV_Indonesia.png/512px-BTV_Indonesia.png",
+        "category":  "Berita",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/BTV_Indonesia.png/512px-BTV_Indonesia.png",
+        "is_indonesia":  true,
+        "sort_order":  15,
+        "is_active":  true
+    },
+    {
+        "id":  "tvri-world",
+        "name":  "TVRI World",
+        "number":  "16",
+        "sources":  [
+                        {
+                            "url":  "https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8",
+                            "name":  "OTT Balancer FHD",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8",
+                            "name":  "Backup 720p",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/TVRI_World_2019.svg/512px-TVRI_World_2019.svg.png",
+        "category":  "Berita",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/TVRI_World_2019.svg/512px-TVRI_World_2019.svg.png",
+        "is_indonesia":  true,
+        "sort_order":  16,
+        "is_active":  true
+    },
+    {
+        "id":  "bn-channel",
+        "name":  "BN Channel",
+        "number":  "17",
+        "sources":  [
+                        {
+                            "url":  "https://flv.intechmedia.net/live/ch112.m3u8",
+                            "name":  "Intech Media HD",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "http://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226ccf.m3u8",
+                            "name":  "NNG Cloud Backup",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/BN_Channel_Logo.png/512px-BN_Channel_Logo.png",
+        "category":  "Berita",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/BN_Channel_Logo.png/512px-BN_Channel_Logo.png",
+        "is_indonesia":  true,
+        "sort_order":  17,
+        "is_active":  true
+    },
+    {
+        "id":  "magna-channel",
+        "name":  "MAGNA Channel",
+        "number":  "18",
+        "sources":  [
+                        {
+                            "url":  "https://edge.medcom.id/live-edge/smil:magna.smil/chunklist_w521170343_b1128000_sleng.m3u8",
+                            "name":  "Medcom Edge",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h24/01.m3u8",
+                            "name":  "DensTV Backup",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Magna_Channel_Logo.png/512px-Magna_Channel_Logo.png",
+        "category":  "Berita",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Magna_Channel_Logo.png/512px-Magna_Channel_Logo.png",
+        "is_indonesia":  true,
+        "sort_order":  18,
+        "is_active":  true
+    },
+    {
+        "id":  "sin-po-tv",
+        "name":  "SIN PO TV",
+        "number":  "19",
+        "sources":  [
+                        {
+                            "url":  "https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=19046",
+                            "name":  "Server Utama",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=19046",
+                            "name":  "Server Backup",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sin_Po_TV_logo.png/512px-Sin_Po_TV_logo.png",
+        "category":  "Berita",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sin_Po_TV_logo.png/512px-Sin_Po_TV_logo.png",
+        "is_indonesia":  true,
+        "sort_order":  19,
+        "is_active":  true
+    },
+    {
+        "id":  "tvri-sport",
+        "name":  "TVRI Sport",
+        "number":  "20",
+        "sources":  [
+                        {
+                            "url":  "https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8",
+                            "name":  "OTT Balancer HD",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8",
+                            "name":  "Backup 720p",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/TVRI_Sport_2019.svg/512px-TVRI_Sport_2019.svg.png",
+        "category":  "Olahraga",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/TVRI_Sport_2019.svg/512px-TVRI_Sport_2019.svg.png",
+        "is_indonesia":  true,
+        "sort_order":  20,
+        "is_active":  true
+    },
+    {
+        "id":  "bein-sports",
+        "name":  "beIN Sports 1",
+        "number":  "21",
+        "sources":  [
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h09/index.m3u8?app_type=web\u0026userid=lite\u0026chname=Motorvision%2B",
+                            "name":  "Dens Live Stream HD",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
+        "category":  "Olahraga",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
+        "is_indonesia":  true,
+        "sort_order":  21,
+        "is_active":  true
+    },
+    {
+        "id":  "the-indonesia-channel",
+        "name":  "The Indonesia Channel",
+        "number":  "22",
+        "sources":  [
+                        {
+                            "url":  "https://restreamer.indonusa.id:8443/d5f4ad43-1b5a-4b0f-8bef-5b37224ed221.m3u8",
+                            "name":  "Indonusa HD",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://restreamer.indonusa.id:8443/d5f4ad43-1b5a-4b0f-8bef-5b37224ed221.m3u8",
+                            "name":  "Indonusa Backup",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://restreamer.indonusa.id:8443/logo.png",
+        "category":  "Hiburan",
+        "logo_url":  "https://restreamer.indonusa.id:8443/logo.png",
+        "is_indonesia":  true,
+        "sort_order":  22,
+        "is_active":  true
+    },
+    {
+        "id":  "dens-food",
+        "name":  "Dens Food Channel",
+        "number":  "23",
+        "sources":  [
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h221/02.m3u8",
+                            "name":  "DensTV HD",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://picture.dens.tv/wp/img/whatson_v2/1280x720/Logo%20DFC.png",
+        "category":  "Hiburan",
+        "logo_url":  "https://picture.dens.tv/wp/img/whatson_v2/1280x720/Logo%20DFC.png",
+        "is_indonesia":  true,
+        "sort_order":  23,
+        "is_active":  true
+    },
+    {
+        "id":  "dens-showbiz",
+        "name":  "Dens ShowBiz",
+        "number":  "24",
+        "sources":  [
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h244/02.m3u8",
+                            "name":  "DensTV HD",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://e7.pngegg.com/pngimages/893/782/png-clipart-competitive-dance-competition-award-talent-show-award-love-television.png",
+        "category":  "Hiburan",
+        "logo_url":  "https://e7.pngegg.com/pngimages/893/782/png-clipart-competitive-dance-competition-award-talent-show-award-love-television.png",
+        "is_indonesia":  true,
+        "sort_order":  24,
+        "is_active":  true
+    },
+    {
+        "id":  "dens-lifestyle",
+        "name":  "Dens Life \u0026 Style",
+        "number":  "25",
+        "sources":  [
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h222/02.m3u8",
+                            "name":  "DensTV HD",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501284_tvchannels_v1.jpg",
+        "category":  "Hiburan",
+        "logo_url":  "https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501284_tvchannels_v1.jpg",
+        "is_indonesia":  true,
+        "sort_order":  25,
+        "is_active":  true
+    },
+    {
+        "id":  "channel-jowo",
+        "name":  "Channel Jowo",
+        "number":  "26",
+        "sources":  [
+                        {
+                            "url":  "https://op-flashcon-digdayasd-1.dens.tv/h/h215/S1/mnf.m3u8",
+                            "name":  "DensTV SD",
+                            "quality":  "576p"
+                        }
+                    ],
+        "logo":  "https://channeljowo.com/wp-content/uploads/2024/09/cropped-LOGO-CHANNEL-JOWO_04-1536x642.png",
+        "category":  "Budaya",
+        "logo_url":  "https://channeljowo.com/wp-content/uploads/2024/09/cropped-LOGO-CHANNEL-JOWO_04-1536x642.png",
+        "is_indonesia":  true,
+        "sort_order":  26,
+        "is_active":  true
+    },
+    {
+        "id":  "daai-tv",
+        "name":  "DAAI TV",
+        "number":  "27",
+        "sources":  [
+                        {
+                            "url":  "https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8",
+                            "name":  "DAAI Plus HD",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "https://op-flashcon-digdayahd-1.dens.tv/h/h16/01.m3u8",
+                            "name":  "DensTV Backup",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DAAI_TV_logo.svg/512px-DAAI_TV_logo.svg.png",
+        "category":  "Budaya",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DAAI_TV_logo.svg/512px-DAAI_TV_logo.svg.png",
+        "is_indonesia":  true,
+        "sort_order":  27,
+        "is_active":  true
+    },
+    {
+        "id":  "indonesiana-tv",
+        "name":  "Indonesiana TV",
+        "number":  "28",
+        "sources":  [
+                        {
+                            "url":  "https://tvstreamcast.com/indonesiana.m3u8",
+                            "name":  "TV Streamcast HD",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "https://tvstreamcast.com/indonesiana.m3u8",
+                            "name":  "Streamcast Backup",
+                            "quality":  "480p"
+                        }
+                    ],
+        "logo":  "https://tvstreamcast.com/indonesiana.png",
+        "category":  "Budaya",
+        "logo_url":  "https://tvstreamcast.com/indonesiana.png",
+        "is_indonesia":  true,
+        "sort_order":  28,
+        "is_active":  true
+    },
+    {
+        "id":  "ashiil-tv",
+        "name":  "Ashiil TV",
+        "number":  "29",
+        "sources":  [
+                        {
+                            "url":  "https://wahyu1ptv.pages.dev/AshiilTV-HD.m3u8",
+                            "name":  "Wahyu CDN HD",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "https://wahyu1ptv.pages.dev/AshiilTV-HD.m3u8",
+                            "name":  "Wahyu Backup",
+                            "quality":  "480p"
+                        }
+                    ],
+        "logo":  "https://wahyu1ptv.pages.dev/AshiilTV.png",
+        "category":  "Religi",
+        "logo_url":  "https://wahyu1ptv.pages.dev/AshiilTV.png",
+        "is_indonesia":  true,
+        "sort_order":  29,
+        "is_active":  true
+    },
+    {
+        "id":  "salam-tv",
+        "name":  "Salam TV",
+        "number":  "30",
+        "sources":  [
+                        {
+                            "url":  "https://live.salamtelevisi.com/hls/0/stream.m3u8",
+                            "name":  "Salam Televisi Live",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "https://live.salamtelevisi.com/hls/0/stream.m3u8",
+                            "name":  "Salam Backup",
+                            "quality":  "480p"
+                        }
+                    ],
+        "logo":  "https://live.salamtelevisi.com/logo.png",
+        "category":  "Religi",
+        "logo_url":  "https://live.salamtelevisi.com/logo.png",
+        "is_indonesia":  true,
+        "sort_order":  30,
+        "is_active":  true
+    },
+    {
+        "id":  "madani-tv",
+        "name":  "Madani TV",
+        "number":  "31",
+        "sources":  [
+                        {
+                            "url":  "https://stream.asianastream.com/madani/madanitv.smil/playlist.m3u8",
+                            "name":  "Asiana Stream",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "https://stream.asianastream.com/madani/madanitv.smil/playlist.m3u8",
+                            "name":  "Asiana Backup",
+                            "quality":  "480p"
+                        }
+                    ],
+        "logo":  "https://stream.asianastream.com/madani/logo.png",
+        "category":  "Religi",
+        "logo_url":  "https://stream.asianastream.com/madani/logo.png",
+        "is_indonesia":  true,
+        "sort_order":  31,
+        "is_active":  true
+    },
+    {
+        "id":  "dmi-tv",
+        "name":  "DMI TV (Tawaf TV)",
+        "number":  "32",
+        "sources":  [
+                        {
+                            "url":  "https://tvstreamcast.com/tawaftv.m3u8",
+                            "name":  "TV Streamcast",
+                            "quality":  "576p"
+                        },
+                        {
+                            "url":  "https://tvstreamcast.com/tawaftv.m3u8",
+                            "name":  "Streamcast Backup",
+                            "quality":  "480p"
+                        }
+                    ],
+        "logo":  "https://tvstreamcast.com/logo.png",
+        "category":  "Religi",
+        "logo_url":  "https://tvstreamcast.com/logo.png",
+        "is_indonesia":  true,
+        "sort_order":  32,
+        "is_active":  true
+    },
+    {
+        "id":  "jtv-surabaya",
+        "name":  "JTV Surabaya / Madiun",
+        "number":  "33",
+        "sources":  [
+                        {
+                            "url":  "http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8",
+                            "name":  "JTV Surabaya HD",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "http://122.248.43.242:1935/JTVMADIUN/_definst_/myStream/playlist.m3u8",
+                            "name":  "JTV Madiun Relay",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/JTV_Surabaya.png/512px-JTV_Surabaya.png",
+        "category":  "Daerah",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/JTV_Surabaya.png/512px-JTV_Surabaya.png",
+        "is_indonesia":  true,
+        "sort_order":  33,
+        "is_active":  true
+    },
+    {
+        "id":  "jawa-pos-tv",
+        "name":  "Jawa Pos TV",
+        "number":  "34",
+        "sources":  [
+                        {
+                            "url":  "http://122.248.43.242:1935/JAWAPOSTVJKT/_definst_/myStream/playlist.m3u8",
+                            "name":  "Jakarta Stream HD",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "http://122.248.43.242:1935/JTVMALANG/_definst_/myStream/playlist.m3u8",
+                            "name":  "Malang Stream",
+                            "quality":  "720p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Jawa_Pos_TV.png/512px-Jawa_Pos_TV.png",
+        "category":  "Daerah",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Jawa_Pos_TV.png/512px-Jawa_Pos_TV.png",
+        "is_indonesia":  true,
+        "sort_order":  34,
+        "is_active":  true
+    },
+    {
+        "id":  "balikpapan-tv",
+        "name":  "Balikpapan TV",
+        "number":  "35",
+        "sources":  [
+                        {
+                            "url":  "http://122.248.43.242:1935/BALIKPAPANTV/_definst_/myStream/playlist.m3u8",
+                            "name":  "Stream 720p",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "http://122.248.43.242:1935/BALIKPAPANTV/_definst_/myStream/playlist.m3u8",
+                            "name":  "Backup 480p",
+                            "quality":  "480p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/BTV_Balikpapan.png/512px-BTV_Balikpapan.png",
+        "category":  "Daerah",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/BTV_Balikpapan.png/512px-BTV_Balikpapan.png",
+        "is_indonesia":  true,
+        "sort_order":  35,
+        "is_active":  true
+    },
+    {
+        "id":  "bandung-tv",
+        "name":  "Bandung TV",
+        "number":  "36",
+        "sources":  [
+                        {
+                            "url":  "http://202.150.153.254:65500/bandungtvWEBSITE.m3u8",
+                            "name":  "Stream Utama",
+                            "quality":  "360p"
+                        },
+                        {
+                            "url":  "http://202.150.153.254:65500/bandungtvWEBSITE.m3u8",
+                            "name":  "Backup Stream",
+                            "quality":  "360p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Bandung_TV_logo.png/512px-Bandung_TV_logo.svg.png",
+        "category":  "Daerah",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Bandung_TV_logo.png/512px-Bandung_TV_logo.svg.png",
+        "is_indonesia":  true,
+        "sort_order":  36,
+        "is_active":  true
+    },
+    {
+        "id":  "banjar-tv",
+        "name":  "Banjar TV",
+        "number":  "37",
+        "sources":  [
+                        {
+                            "url":  "https://banjartv.siar.us/banjartv/live/playlist.m3u8",
+                            "name":  "Siar CDN HD",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "https://banjartv.siar.us/banjartv/live/playlist.m3u8",
+                            "name":  "Siar Backup",
+                            "quality":  "480p"
+                        }
+                    ],
+        "logo":  "https://banjartv.siar.us/logo.png",
+        "category":  "Daerah",
+        "logo_url":  "https://banjartv.siar.us/logo.png",
+        "is_indonesia":  true,
+        "sort_order":  37,
+        "is_active":  true
+    },
+    {
+        "id":  "dhoho-tv",
+        "name":  "Dhoho TV (Kediri)",
+        "number":  "38",
+        "sources":  [
+                        {
+                            "url":  "https://dhohotv.siar.us/dhohotv/live/playlist.m3u8",
+                            "name":  "Siar CDN",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "https://dhohotv.siar.us/dhohotv/live/playlist.m3u8",
+                            "name":  "Siar Backup",
+                            "quality":  "480p"
+                        }
+                    ],
+        "logo":  "https://dhohotv.siar.us/logo.png",
+        "category":  "Daerah",
+        "logo_url":  "https://dhohotv.siar.us/logo.png",
+        "is_indonesia":  true,
+        "sort_order":  38,
+        "is_active":  true
+    },
+    {
+        "id":  "ficom-channel",
+        "name":  "Ficom Channel",
+        "number":  "39",
+        "sources":  [
+                        {
+                            "url":  "https://v3.siar.us/ficomchannel/live/playlist.m3u8",
+                            "name":  "V3 Siar Live",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "https://v3.siar.us/ficomchannel/live/playlist.m3u8",
+                            "name":  "V3 Backup",
+                            "quality":  "480p"
+                        }
+                    ],
+        "logo":  "https://v3.siar.us/logo.png",
+        "category":  "Daerah",
+        "logo_url":  "https://v3.siar.us/logo.png",
+        "is_indonesia":  true,
+        "sort_order":  39,
+        "is_active":  true
+    },
+    {
+        "id":  "ugtv",
+        "name":  "UGTV (Gunadarma)",
+        "number":  "40",
+        "sources":  [
+                        {
+                            "url":  "https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8",
+                            "name":  "Gunadarma Stream",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8",
+                            "name":  "Backup Stream",
+                            "quality":  "480p"
+                        }
+                    ],
+        "logo":  "https://cdn.gunadarma.ac.id/streams/ugtv/logo.png",
+        "category":  "Pendidikan",
+        "logo_url":  "https://cdn.gunadarma.ac.id/streams/ugtv/logo.png",
+        "is_indonesia":  true,
+        "sort_order":  40,
+        "is_active":  true
+    },
+    {
+        "id":  "dw-english",
+        "name":  "DW English",
+        "number":  "41",
+        "sources":  [
+                        {
+                            "url":  "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+                            "name":  "Akamai Live HLS",
+                            "quality":  "1080p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/512px-Deutsche_Welle_symbol_2012.svg.png",
+        "category":  "Internasional",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/512px-Deutsche_Welle_symbol_2012.svg.png",
+        "is_indonesia":  false,
+        "sort_order":  41,
+        "is_active":  true
+    },
+    {
+        "id":  "france-24",
+        "name":  "France 24 English",
+        "number":  "42",
+        "sources":  [
+                        {
+                            "url":  "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8",
+                            "name":  "Master HLS 1080p",
+                            "quality":  "1080p"
+                        }
+                    ],
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/France_24_logo.svg/512px-France_24_logo.svg.png",
+        "category":  "Internasional",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/France_24_logo.svg/512px-France_24_logo.svg.png",
+        "is_indonesia":  false,
+        "sort_order":  42,
+        "is_active":  true
+    },
+    {
+        "id":  "tvri-jakarta",
+        "category":  "Daerah",
+        "sources":  [
+                        {
+                            "url":  "https://ott-balancer.tvri.go.id/live/eds/DKI/hls/DKI.m3u8",
+                            "name":  "OTT Balancer",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "https://ott-balancer.tvri.go.id/live/eds/DKI/hls/DKI.m3u8",
+                            "name":  "Backup Stream",
+                            "quality":  "576p"
+                        }
+                    ],
+        "name":  "TVRI Jakarta",
+        "number":  "43",
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/TVRI_Nasional_2019.svg/512px-TVRI_Nasional_2019.svg.png",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/TVRI_Nasional_2019.svg/512px-TVRI_Nasional_2019.svg.png",
+        "is_indonesia":  true,
+        "sort_order":  43,
+        "is_active":  true
+    },
+    {
+        "id":  "jogja-tv",
+        "category":  "Daerah",
+        "sources":  [
+                        {
+                            "url":  "https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8",
+                            "name":  "Stream Utama",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8",
+                            "name":  "Backup Stream",
+                            "quality":  "480p"
+                        }
+                    ],
+        "name":  "Jogja TV",
+        "number":  "44",
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Jogja_TV.png/512px-Jogja_TV.png",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Jogja_TV.png/512px-Jogja_TV.png",
+        "is_indonesia":  true,
+        "sort_order":  44,
+        "is_active":  true
+    },
+    {
+        "id":  "padang-tv",
+        "category":  "Daerah",
+        "sources":  [
+                        {
+                            "url":  "http://122.248.43.242:1935/PADANGTV/_definst_/myStream/playlist.m3u8",
+                            "name":  "Stream Utama",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "http://122.248.43.242:1935/PADANGTV/_definst_/myStream/playlist.m3u8",
+                            "name":  "Backup Stream",
+                            "quality":  "480p"
+                        }
+                    ],
+        "name":  "Padang TV",
+        "number":  "45",
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Padang_TV_logo.png/512px-Padang_TV_logo.png",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Padang_TV_logo.png/512px-Padang_TV_logo.png",
+        "is_indonesia":  true,
+        "sort_order":  45,
+        "is_active":  true
+    },
+    {
+        "id":  "riau-tv",
+        "category":  "Daerah",
+        "sources":  [
+                        {
+                            "url":  "http://122.248.43.242:1935/RIAUTV/_definst_/myStream/playlist.m3u8",
+                            "name":  "Stream Utama",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "http://122.248.43.242:1935/RIAUTV/_definst_/myStream/playlist.m3u8",
+                            "name":  "Backup Stream",
+                            "quality":  "480p"
+                        }
+                    ],
+        "name":  "Riau TV",
+        "number":  "46",
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Riau_TV_logo.png/512px-Riau_TV_logo.png",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Riau_TV_logo.png/512px-Riau_TV_logo.png",
+        "is_indonesia":  true,
+        "sort_order":  46,
+        "is_active":  true
+    },
+    {
+        "id":  "batam-tv",
+        "category":  "Daerah",
+        "sources":  [
+                        {
+                            "url":  "http://122.248.43.242:1935/BATAMTV/_definst_/myStream/playlist.m3u8",
+                            "name":  "Stream Utama",
+                            "quality":  "480p"
+                        },
+                        {
+                            "url":  "http://122.248.43.242:1935/BATAMTV/_definst_/myStream/playlist.m3u8",
+                            "name":  "Backup Stream",
+                            "quality":  "360p"
+                        }
+                    ],
+        "name":  "Batam TV",
+        "number":  "47",
+        "logo":  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Batam_TV_logo.png/512px-Batam_TV_logo.png",
+        "logo_url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Batam_TV_logo.png/512px-Batam_TV_logo.png",
+        "is_indonesia":  true,
+        "sort_order":  47,
+        "is_active":  true
+    },
+    {
+        "id":  "sriwijaya-tv",
+        "category":  "Daerah",
+        "sources":  [
+                        {
+                            "url":  "https://sriwijayatv.siar.us/live/sriwijayatv.m3u8",
+                            "name":  "Siar CDN",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "https://sriwijayatv.siar.us/live/sriwijayatv.m3u8",
+                            "name":  "Backup Stream",
+                            "quality":  "480p"
+                        }
+                    ],
+        "name":  "Sriwijaya TV (Palembang)",
+        "number":  "48",
+        "logo":  "https://sriwijayatv.siar.us/logo.png",
+        "logo_url":  "https://sriwijayatv.siar.us/logo.png",
+        "is_indonesia":  true,
+        "sort_order":  48,
+        "is_active":  true
+    },
+    {
+        "id":  "duta-tv",
+        "category":  "Daerah",
+        "sources":  [
+                        {
+                            "url":  "https://dutatv.siar.us/dutatv/live/playlist.m3u8",
+                            "name":  "Siar CDN",
+                            "quality":  "480p"
+                        },
+                        {
+                            "url":  "https://dutatv.siar.us/dutatv/live/playlist.m3u8",
+                            "name":  "Backup Stream",
+                            "quality":  "360p"
+                        }
+                    ],
+        "name":  "Duta TV (Banjarmasin)",
+        "number":  "49",
+        "logo":  "https://dutatv.siar.us/logo.png",
+        "logo_url":  "https://dutatv.siar.us/logo.png",
+        "is_indonesia":  true,
+        "sort_order":  49,
+        "is_active":  true
+    },
+    {
+        "id":  "rctv-cirebon",
+        "category":  "Daerah",
+        "sources":  [
+                        {
+                            "url":  "https://v10.siar.us/rctv/live/playlist.m3u8",
+                            "name":  "V10 Siar CDN",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "https://v10.siar.us/rctv/live/playlist.m3u8",
+                            "name":  "Backup Stream",
+                            "quality":  "480p"
+                        }
+                    ],
+        "name":  "RCTV (Cirebon)",
+        "number":  "50",
+        "logo":  "https://v10.siar.us/logo.png",
+        "logo_url":  "https://v10.siar.us/logo.png",
+        "is_indonesia":  true,
+        "sort_order":  50,
+        "is_active":  true
+    },
+    {
+        "id":  "al-bahjah-tv",
+        "category":  "Religi",
+        "sources":  [
+                        {
+                            "url":  "http://202.150.161.117:8000/play/AlBahjahTV",
+                            "name":  "Live Stream HD",
+                            "quality":  "1080p"
+                        },
+                        {
+                            "url":  "http://202.150.161.117:8000/play/AlBahjahTV",
+                            "name":  "Backup Stream",
+                            "quality":  "720p"
+                        }
+                    ],
+        "name":  "Al-Bahjah TV (Buya Yahya)",
+        "number":  "51",
+        "logo":  "https://albahjah.tv/logo.png",
+        "logo_url":  "https://albahjah.tv/logo.png",
+        "is_indonesia":  true,
+        "sort_order":  51,
+        "is_active":  true
+    },
+    {
+        "id":  "nabawi-tv",
+        "category":  "Religi",
+        "sources":  [
+                        {
+                            "url":  "http://202.150.161.117:8000/play/NabawiTV",
+                            "name":  "Live Stream 720p",
+                            "quality":  "720p"
+                        },
+                        {
+                            "url":  "http://202.150.161.117:8000/play/NabawiTV",
+                            "name":  "Backup Stream",
+                            "quality":  "480p"
+                        }
+                    ],
+        "name":  "Nabawi TV",
+        "number":  "52",
+        "logo":  "https://nabawitv.com/logo.png",
+        "logo_url":  "https://nabawitv.com/logo.png",
+        "is_indonesia":  true,
+        "sort_order":  52,
+        "is_active":  true
+    }
+]

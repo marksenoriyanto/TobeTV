@@ -1,0 +1,66 @@
+name: Build & Release TobeTV APK
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build Android TV APK
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: gradle
+
+      - name: Grant Execute Permission for Gradlew
+        run: chmod +x gradlew
+
+      - name: Create local.properties with Supabase Config
+        run: |
+          echo "SUPABASE_URL=${{ secrets.SUPABASE_URL }}" >> local.properties
+          echo "SUPABASE_ANON_KEY=${{ secrets.SUPABASE_ANON_KEY }}" >> local.properties
+
+      - name: Build Debug APK
+        run: ./gradlew assembleDebug --stacktrace
+
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-debug
+          path: app/build/outputs/apk/debug/app-debug.apk
+
+      - name: Create GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: app/build/outputs/apk/debug/app-debug.apk
+          name: TobeTV ${{ github.ref_name }}
+          body: |
+            ## 🚀 TobeTV Release ${{ github.ref_name }}
+            
+            Pembaruan otomatis TobeTV untuk Android TV:
+            - Kurasi 52 Channel TV Indonesia & Internasional (dilengkapi multi-server backup).
+            - 25 Judul Film Bioskop Box Office (dengan kontrol putar, jeda, dan mundurkan/majukan).
+            - Optimalisasi layar penuh (Stretch 16:9) & hemat memori RAM untuk TV spesifikasi rendah.
+            
+            ### 📥 Unduh APK:
+            Langsung unduh file `app-debug.apk` di bawah ini.
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
