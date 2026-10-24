@@ -11,8 +11,14 @@ val localProperties = Properties().apply {
         localPropertiesFile.inputStream().use { load(it) }
     }
 }
-val supabaseUrl = localProperties.getProperty("supabase.url") ?: ""
-val supabaseAnonKey = localProperties.getProperty("supabase.anonKey") ?: ""
+val supabaseUrl = localProperties.getProperty("supabase.url")
+    ?: localProperties.getProperty("SUPABASE_URL")
+    ?: System.getenv("SUPABASE_URL")
+    ?: ""
+val supabaseAnonKey = localProperties.getProperty("supabase.anonKey")
+    ?: localProperties.getProperty("SUPABASE_ANON_KEY")
+    ?: System.getenv("SUPABASE_ANON_KEY")
+    ?: ""
 
 android {
     namespace = "com.example.tobetv"
