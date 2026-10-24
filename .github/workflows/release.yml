@@ -70,3 +70,24 @@ jobs:
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update Supabase app_updates Table
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY || secrets.SUPABASE_ANON_KEY }}
+          TAG_NAME: ${{ github.ref_name }}
+        run: |
+          VERSION_NAME="${TAG_NAME#v}"
+          VERSION_CODE=$(grep 'versionCode' app/build.gradle.kts | head -n 1 | awk '{print $NF}' | tr -d '"')
+          APK_URL="https://github.com/${{ github.repository }}/releases/download/${TAG_NAME}/app-debug.apk"
+          CHANGELOG="Pembaruan TobeTV ${TAG_NAME}: 52 channel TV, 25 film bioskop VOD, dan kontrol player."
+
+          echo "Mengirim update ke Supabase..."
+          curl -s -f -X POST "${SUPABASE_URL}/rest/v1/app_updates" \
+            -H "apikey: ${SUPABASE_KEY}" \
+            -H "Authorization: Bearer ${SUPABASE_KEY}" \
+            -H "Content-Type: application/json" \
+            -H "Prefer: return=minimal" \
+            -d "{\"version_code\": ${VERSION_CODE}, \"version_name\": \"${VERSION_NAME}\", \"apk_url\": \"${APK_URL}\", \"changelog\": \"${CHANGELOG}\", \"is_active\": true}" || echo "Periksa SUPABASE_SERVICE_ROLE_KEY di GitHub Secrets jika gagal RLS"
+          echo "Selesai sinkronisasi ke Supabase."
