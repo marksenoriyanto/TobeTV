@@ -33,11 +33,27 @@ class UpdateRepository(private val context: Context) {
         onProgress: (Int) -> Unit
     ): Result<Unit> = withContext(Dispatchers.IO) {
         try {
-            val url = URL(apkUrl)
-            val connection = url.openConnection() as HttpURLConnection
-            connection.connectTimeout = 15000
-            connection.readTimeout = 20000
-            connection.connect()
+            var currentUrl = apkUrl
+            var connection: HttpURLConnection
+            var redirectCount = 0
+            while (true) {
+                val url = URL(currentUrl)
+                connection = url.openConnection() as HttpURLConnection
+                connection.instanceFollowRedirects = true
+                connection.connectTimeout = 15000
+                connection.readTimeout = 20000
+                val status = connection.responseCode
+                if (status in 300..399 && redirectCount < 5) {
+                    val location = connection.getHeaderField("Location")
+                    if (!location.isNullOrEmpty()) {
+                        currentUrl = location
+                        redirectCount++
+                        connection.disconnect()
+                        continue
+                    }
+                }
+                break
+            }
 
             val fileLength = connection.contentLength
             val cacheDir = context.externalCacheDir ?: context.cacheDir
